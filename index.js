@@ -1,11 +1,10 @@
-// https://stackoverflow.com/questions/16631064/declare-multiple-module-exports-in-node-js
 var http = require('http');
 const url = require('url');
 
-//var { add, subtract, qube } = require('./Calculator');
 var formula = require('./Calculator');
 
 var server = http.createServer(function (req, res) {
+
     const page_url = url.parse(req.url, true).pathname
     var query_param = url.parse(req.url, true).query;
     if (page_url === '/add') {
