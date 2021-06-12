@@ -1,20 +1,20 @@
 module.exports = {
-    add: (a, b) => {
-        return parseInt(a) + parseInt(b);
+    add: (number1, number2) => {
+        return parseInt(number1) + parseInt(number2);
     },
-    subtract: (a, b) => {
-        return parseInt(a) - parseInt(b);
+    subtract: (number1, number2) => {
+        return parseInt(number1) - parseInt(number2);
     },
-    multiply: (a, b) => {
-        return parseInt(a) * parseInt(b);
+    multiply: (number1, number2) => {
+        return parseInt(number1) * parseInt(number2);
     },
-    divide: (a, b) => {
-        return parseInt(a) / parseInt(b);
+    divide: (number1, number2) => {
+        return parseInt(number1) / parseInt(number2);
     },
-    square: (a) => {
-        return parseInt(a) * parseInt(a);
+    square: (number) => {
+        return parseInt(number) * parseInt(number);
     },
-    qube: (a) => {
-        return parseInt(a) * parseInt(a) * parseInt(a);
+    qube: (number) => {
+        return parseInt(number) * parseInt(number) * parseInt(number);
     }
 };
