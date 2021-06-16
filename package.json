@@ -1,5 +1,5 @@
 {
-  "name": "node-calculator",
+  "name": "Calculator",
   "version": "1.0.0",
   "description": "This is my node calculator with basic math operation.",
   "main": "index.js",
